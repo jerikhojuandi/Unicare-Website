@@ -1,0 +1,451 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(194,198,199,1) 100%);
+    font-family: "Montserrat", sans-serif;
+}
+
+.hero-section{
+    background-image: url('../assets/Hero-asset.png');
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right bottom;
+    /* width: 50%; */
+}
+
+.book-btn{
+    color: #882947;
+}
+
+footer {
+
+    background-color: #D6D6D6;
+
+}
+
+.hero-heading{
+    color: #882947;
+}
+
+.navbar {
+    background-color: transparent;
+    padding: 30px 0;
+    transition-duration: 0.6s;
+    color: #3c4043;
+}
+
+.navbar-colored {
+    background-color: #D6D6D6;
+}
+
+
+/* .navbar ul li a{
+    color: #939598;
+} */
+
+.navbar-nav .nav-link{
+    font-weight: bold;
+    /* color: #939598; */
+}
+
+.scroll_navbar{
+    padding: 10px 0;
+    background-color: #FAF3F0;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    transition-duration: 0.6s;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+  .dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+
+
+.content-container{
+    /* margin-left: none;
+    margin-right: none; */
+    margin-top: 100px;
+}
+
+
+.footer-icon-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px; /* Adjust the size as needed */
+    height: 48px; /* Adjust the size as needed */
+    /* background-color: white; */
+    border-radius: 50%;
+}
+
+.footer-icon {
+    width: 32px; /* Adjust the icon size as needed */
+    height: 32px; /* Adjust the icon size as needed */
+}
+
+.footer-slogan{
+    white-space: nowrap;
+    font-size: 2rem;
+}
+
+/* Home */
+
+
+/* CSS */
+
+.button-17 {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  /* font-family: "Google Sans",Roboto,Arial,sans-serif; */
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  /* max-width: 100%; */
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+}
+
+.button-17:hover {
+  background: #F6F9FE;
+  color: #77163B;
+}
+
+.button-17:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.button-17:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+}
+
+.button-17:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.button-17:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.button-17:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+
+.home-doctors{
+    background-color: #F1E1DD;
+}
+
+.section-title h1{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.home-doctors .doctor-card {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.home-doctors .image-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.home-doctors .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.home-doctors .name-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #77163B;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    opacity: 0.75;
+}
+.name-overlay p{
+    font-size: 1em;
+}
+
+.home-doctors .name-overlay p {
+    margin: 0;
+}
+
+
+.home-doctors-bottom{
+    margin: 50px 50px;
+    /* justify-content: space-around; */
+}
+
+.text-expertise{
+    font-size: 1em;
+}
+
+.home-testimonial {
+    background-color: #f8f8f8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.uac-text {
+    color: #882947;
+}
+
+.second-text {
+    color: #939598;
+}
+
+.doctors-text {
+    color: #939598;
+}
+
+.home-testimonial-bottom {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.home-testimonial h1 {
+    color: var(--orange);
+    font-size: 36px;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+}
+
+.home-testimonial h3 {
+    /* color: white; */
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.testimonial-inner {
+    position: relative;
+}
+
+.testimonial-pos {
+    position: relative;
+}
+
+.testimonial-inner .tour-desc {
+    border-radius: 5px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    height: 100%;
+    position: relative;
+}
+
+.color-grey-3 {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #6c83a2;
+}
+
+.card {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tour-item {
+    background-color: #882947;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.card .tour-item .tour-desc .fa-quote-left {
+    /* color:#882947; */
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 2rem;
+}
+
+.card .tour-item .tour-desc .fa-quote-right {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-size: 2rem;
+}
+
+.tour-text{
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 200;
+
+}
+
+.home-gallery{
+    background-color: #F1E1DD;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* margin: 0 50px; */
+}
+
+.home-gallery h1{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.gallery-title {
+    margin-bottom: 30px;
+}
+
+.gallery-left img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery{
+    margin: 0 50px;
+}
+
+.gallery-bottom{
+    background-color: #f8f8f8;
+}
+
+.gallery-bottom-content{
+    margin: 50px 50px;
+}
+
+.gallery-bottom img{
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 20px;
+}
+
+
+@media (max-width: 1024px) {
+
+    .footer-slogan{
+        white-space: nowrap;
+        font-size: 1.5rem;
+    }
+
+}
+@media (max-width: 768px) {
+
+    .gallery-left, .gallery-right {
+        margin-bottom: 20px;
+    }
+
+    .gallery-right img {
+        height: auto;
+    }
+    .connect-text{
+        font-size: 1rem;
+    }
+    .footer-icon{
+        width: 24px;
+        height: 24px;
+    }
+
+    .hero-section{
+        background-image: none;
+    }
+    .home-testimonial {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .home-testimonial-bottom {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .testimonial-inner .tour-desc {
+        padding: 20px;
+    }
+
+    .card .tour-item .tour-desc .fa-quote-left {
+        /* color:#882947; */
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        font-size: 1.5rem;
+    }
+
+    .card .tour-item .tour-desc .fa-quote-right {
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+        font-size: 1.5rem;
+    }
+
+    .tour-text{
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 200;
+
+    }
+
+    .footer-content{
+        margin: 1em 0;
+        /* border-bottom: 1px solid gray; */
+    }
+
+    .footer-slogan{
+        white-space: nowrap;
+        font-size: 1.25rem;
+    }
+
+
+
+}
+
+
